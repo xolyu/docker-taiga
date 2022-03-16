@@ -1,6 +1,6 @@
-FROM monogramm/docker-taiga-back-base:6.0-alpine
+FROM xolyu/docker-taiga-back-base:6.0-alpine
 
-LABEL maintainer="Monogramm maintainers <opensource at monogramm dot io>"
+LABEL maintainer="Xolyu"
 
 # Taiga additional properties
 ENV ENABLE_SLACK=False \
@@ -58,11 +58,11 @@ ARG VERSION=6.0
 
 # Container labels (http://label-schema.org/)
 # Container annotations (https://github.com/opencontainers/image-spec)
-LABEL maintainer="Monogramm Maintainers <opensource at monogramm dot io>" \
+LABEL maintainer="Xolyu" \
       product="Taiga Back" \
       version=$VERSION \
       org.label-schema.vcs-ref=$VCS_REF \
-      org.label-schema.vcs-url="https://github.com/Monogramm/docker-taiga/" \
+      org.label-schema.vcs-url="https://github.com/xolyu/docker-taiga/" \
       org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.name="Taiga Back" \
       org.label-schema.description="Taiga is a project management platform for startups and agile developers & designers who want a simple, beautiful tool that makes work truly enjoyable." \
@@ -71,11 +71,11 @@ LABEL maintainer="Monogramm Maintainers <opensource at monogramm dot io>" \
       org.label-schema.version=$VERSION \
       org.label-schema.schema-version="1.0" \
       org.opencontainers.image.revision=$VCS_REF \
-      org.opencontainers.image.source="https://github.com/Monogramm/docker-taiga/" \
+      org.opencontainers.image.source="https://github.com/xolyu/docker-taiga/" \
       org.opencontainers.image.created=$BUILD_DATE \
       org.opencontainers.image.title="Taiga Back" \
       org.opencontainers.image.description="Taiga is a project management platform for startups and agile developers & designers who want a simple, beautiful tool that makes work truly enjoyable." \
       org.opencontainers.image.url="https://www.taiga.io/" \
       org.opencontainers.image.vendor="Taiga" \
       org.opencontainers.image.version=$VERSION \
-      org.opencontainers.image.authors="Monogramm Maintainers <opensource at monogramm dot io>"
+      org.opencontainers.image.authors="Xolyu"

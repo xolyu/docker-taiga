@@ -35,14 +35,18 @@ Taiga is a project management platform for startups and agile developers & desig
 
 <!-- >Docker Tags -->
 
--   6.0.10-alpine 6.0-alpine alpine 6.0.10 6.0 latest  (`images/6.0/alpine/front/Dockerfile`) ![Docker Image Size (6.0.10-alpine)](https://img.shields.io/docker/image-size/monogramm/docker-taiga-front/6.0.10-alpine)
--   6.0.10-alpine 6.0-alpine alpine 6.0.10 6.0 latest  (`images/6.0/alpine/back/Dockerfile`) ![Docker Image Size (6.0.10-alpine)](https://img.shields.io/docker/image-size/monogramm/docker-taiga-back/6.0.10-alpine)
--   5.5.10-alpine 5.5-alpine 5.5.10 5.5  (`images/5.5/alpine/front/Dockerfile`) ![Docker Image Size (5.5.10-alpine)](https://img.shields.io/docker/image-size/monogramm/docker-taiga-front/5.5.10-alpine)
--   5.5.10-alpine 5.5-alpine 5.5.10 5.5  (`images/5.5/alpine/back/Dockerfile`) ![Docker Image Size (5.5.10-alpine)](https://img.shields.io/docker/image-size/monogramm/docker-taiga-back/5.5.10-alpine)
--   5.0.15-alpine 5.0-alpine 5.0.15 5.0  (`images/5.0/alpine/front/Dockerfile`) ![Docker Image Size (5.0.15-alpine)](https://img.shields.io/docker/image-size/monogramm/docker-taiga-front/5.0.15-alpine)
--   5.0.15-alpine 5.0-alpine 5.0.15 5.0  (`images/5.0/alpine/back/Dockerfile`) ![Docker Image Size (5.0.15-alpine)](https://img.shields.io/docker/image-size/monogramm/docker-taiga-back/5.0.15-alpine)
--   4.2.14-alpine 4.2-alpine 4.2.14 4.2  (`images/4.2/alpine/front/Dockerfile`) ![Docker Image Size (4.2.14-alpine)](https://img.shields.io/docker/image-size/monogramm/docker-taiga-front/4.2.14-alpine)
--   4.2.14-alpine 4.2-alpine 4.2.14 4.2  (`images/4.2/alpine/back/Dockerfile`) ![Docker Image Size (4.2.14-alpine)](https://img.shields.io/docker/image-size/monogramm/docker-taiga-back/4.2.14-alpine)
+-   6.5.1-alpine 6.5-alpine alpine 6.5.1 6.5 latest  (`images/6.5/alpine/front/Dockerfile`) ![Docker Image Size (6.5.1-alpine)](https://img.shields.io/docker/image-size/xolyu/docker-taiga-front/6.5.1-alpine)
+-   6.5.1-alpine 6.5-alpine alpine 6.5.1 6.5 latest  (`images/6.5/alpine/back/Dockerfile`) ![Docker Image Size (6.5.1-alpine)](https://img.shields.io/docker/image-size/xolyu/docker-taiga-back/6.5.1-alpine)
+-   6.4.3-alpine 6.4-alpine 6.4.3 6.4  (`images/6.4/alpine/front/Dockerfile`) ![Docker Image Size (6.4.3-alpine)](https://img.shields.io/docker/image-size/xolyu/docker-taiga-front/6.4.3-alpine)
+-   6.4.3-alpine 6.4-alpine 6.4.3 6.4  (`images/6.4/alpine/back/Dockerfile`) ![Docker Image Size (6.4.3-alpine)](https://img.shields.io/docker/image-size/xolyu/docker-taiga-back/6.4.3-alpine)
+-   6.3.3-alpine 6.3-alpine 6.3.3 6.3  (`images/6.3/alpine/front/Dockerfile`) ![Docker Image Size (6.3.3-alpine)](https://img.shields.io/docker/image-size/xolyu/docker-taiga-front/6.3.3-alpine)
+-   6.3.3-alpine 6.3-alpine 6.3.3 6.3  (`images/6.3/alpine/back/Dockerfile`) ![Docker Image Size (6.3.3-alpine)](https://img.shields.io/docker/image-size/xolyu/docker-taiga-back/6.3.3-alpine)
+-   6.2.2-alpine 6.2-alpine 6.2.2 6.2  (`images/6.2/alpine/front/Dockerfile`) ![Docker Image Size (6.2.2-alpine)](https://img.shields.io/docker/image-size/xolyu/docker-taiga-front/6.2.2-alpine)
+-   6.2.2-alpine 6.2-alpine 6.2.2 6.2  (`images/6.2/alpine/back/Dockerfile`) ![Docker Image Size (6.2.2-alpine)](https://img.shields.io/docker/image-size/xolyu/docker-taiga-back/6.2.2-alpine)
+-   6.1.1-alpine 6.1-alpine 6.1.1 6.1  (`images/6.1/alpine/front/Dockerfile`) ![Docker Image Size (6.1.1-alpine)](https://img.shields.io/docker/image-size/xolyu/docker-taiga-front/6.1.1-alpine)
+-   6.1.1-alpine 6.1-alpine 6.1.1 6.1  (`images/6.1/alpine/back/Dockerfile`) ![Docker Image Size (6.1.1-alpine)](https://img.shields.io/docker/image-size/xolyu/docker-taiga-back/6.1.1-alpine)
+-   6.0.10-alpine 6.0-alpine 6.0.10 6.0  (`images/6.0/alpine/front/Dockerfile`) ![Docker Image Size (6.0.10-alpine)](https://img.shields.io/docker/image-size/xolyu/docker-taiga-front/6.0.10-alpine)
+-   6.0.10-alpine 6.0-alpine 6.0.10 6.0  (`images/6.0/alpine/back/Dockerfile`) ![Docker Image Size (6.0.10-alpine)](https://img.shields.io/docker/image-size/xolyu/docker-taiga-back/6.0.10-alpine)
 
 <!-- <Docker Tags -->
 

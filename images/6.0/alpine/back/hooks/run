@@ -14,7 +14,7 @@ SOURCE_COMMIT=$(git rev-parse --short HEAD)
 export COMMIT_MSG
 COMMIT_MSG=$(git log -1 --format=%s)
 
-export DOCKER_REPO=monogramm/docker-taiga-back
+export DOCKER_REPO=xolyu/docker-taiga-back
 export DOCKERFILE_PATH=Dockerfile
 export DOCKER_TAG=6.0
 export IMAGE_NAME=${DOCKER_REPO}:${DOCKER_TAG}
