@@ -1,25 +1,27 @@
 [![License: AGPL v3][uri_license_image]][uri_license]
-[![Build Status](https://travis-ci.org/Monogramm/docker-taiga.svg)](https://travis-ci.org/Monogramm/docker-taiga)
+[![Build Status](https://travis-ci.org/xolyu/docker-taiga.svg)](https://travis-ci.org/xolyu/docker-taiga)
 
 **docker-taiga-front**
 
-[![Front Docker Automated buid](https://img.shields.io/docker/cloud/build/monogramm/docker-taiga-front.svg)](https://hub.docker.com/r/monogramm/docker-taiga-front/)
-[![Front Docker Pulls](https://img.shields.io/docker/pulls/monogramm/docker-taiga-front.svg)](https://hub.docker.com/r/monogramm/docker-taiga-front/)
+[![Front Docker Automated buid](https://img.shields.io/docker/cloud/build/xolyu/docker-taiga-front.svg)](https://hub.docker.com/r/xolyu/docker-taiga-front/)
+[![Front Docker Pulls](https://img.shields.io/docker/pulls/xolyu/docker-taiga-front.svg)](https://hub.docker.com/r/xolyu/docker-taiga-front/)
 
 * * *
 
 **docker-taiga-back**
 
-[![Back Docker Automated buid](https://img.shields.io/docker/cloud/build/monogramm/docker-taiga-back.svg)](https://hub.docker.com/r/monogramm/docker-taiga-back/)
-[![Back Docker Pulls](https://img.shields.io/docker/pulls/monogramm/docker-taiga-back.svg)](https://hub.docker.com/r/monogramm/docker-taiga-back/)
+[![Back Docker Automated buid](https://img.shields.io/docker/cloud/build/xolyu/docker-taiga-back.svg)](https://hub.docker.com/r/xolyu/docker-taiga-back/)
+[![Back Docker Pulls](https://img.shields.io/docker/pulls/xolyu/docker-taiga-back.svg)](https://hub.docker.com/r/xolyu/docker-taiga-back/)
 
 * * *
 
 # Docker image for taiga
 
-This Docker repository provides custom [taiga-front](https://github.com/taigaio/taiga-front) and [taiga-back](https://github.com/taigaio/taiga-back) docker images with additional plugins and a production ready docker-compose.
+This Docker repository provides custom [taiga-front](https://github.com/kaleidos-ventures/taiga-front) and [taiga-back](https://github.com/kaleidos-ventures/taiga-back) docker images with additional plugins and a production ready docker-compose.
 
-These images were inspired by [ajira86/docker-taiga](https://github.com/ajira86/docker-taiga) which is a fork of [benhutchins/docker-taiga](https://github.com/benhutchins/docker-taiga).
+This image is a fork of [Monogramm/docker-taiga](https://github.com/Monogramm/docker-taiga) 
+which itself was inspired by [ajira86/docker-taiga](https://github.com/ajira86/docker-taiga) 
+which is a fork of [benhutchins/docker-taiga](https://github.com/benhutchins/docker-taiga).
 
 ## What is Taiga
 
@@ -29,9 +31,9 @@ Taiga is a project management platform for startups and agile developers & desig
 
 ## Supported tags
 
-> [monogramm/docker-taiga-front](https://hub.docker.com/r/monogramm/docker-taiga-front/)
+> [xolyu/docker-taiga-front](https://hub.docker.com/r/xolyu/docker-taiga-front/)
 
-> [monogramm/docker-taiga-back](https://hub.docker.com/r/monogramm/docker-taiga-back/)
+> [xolyu/docker-taiga-back](https://hub.docker.com/r/xolyu/docker-taiga-back/)
 
 <!-- >Docker Tags -->
 
@@ -67,7 +69,7 @@ You can also build all images by running `update.sh build`.
 
 ## Frontend
 
-The front is based on [Monogramm/docker-taiga-front-base](https://github.com/Monogramm/docker-taiga-front-base) and adds the following plugins:
+The front is based on [xolyu/docker-taiga-front-base](https://github.com/xolyu/docker-taiga-front-base) and adds the following plugins:
 
 -   <https://github.com/taigaio/taiga-contrib-slack>
 -   <https://github.com/taigaio/taiga-contrib-gitlab-auth>
@@ -79,7 +81,7 @@ The front is based on [Monogramm/docker-taiga-front-base](https://github.com/Mon
 
 The Taiga frontend image supports auto configuration via environment variables. You can preconfigure nearly everything that is available in `conf.json`.
 
-See [docker-taiga-front-base](https://github.com/Monogramm/docker-taiga-front-base/) for more details on configuration.
+See [docker-taiga-front-base](https://github.com/xolyu/docker-taiga-front-base/) for more details on configuration.
 
 This image also provides healthchecks and additionnal configuration properties.
 
@@ -139,7 +141,7 @@ OPENID_CLIENT_ID=Client_ID
 
 ## Backend
 
-The image is based on [Monogramm/docker-taiga-back-base](https://github.com/Monogramm/docker-taiga-back-base) and add the following plugins:
+The image is based on [xolyu/docker-taiga-back-base](https://github.com/xolyu/docker-taiga-back-base) and add the following plugins:
 
 -   <https://github.com/taigaio/taiga-contrib-slack>
 -   <https://github.com/taigaio/taiga-contrib-gitlab-auth>
@@ -151,7 +153,7 @@ The image is based on [Monogramm/docker-taiga-back-base](https://github.com/Mono
 
 The Taiga image supports auto configuration via environment variables. You can preconfigure nearly everything that is available in `local.py`.
 
-See [docker-taiga-back-base](https://github.com/Monogramm/docker-taiga-back-base/) for more details on configuration.
+See [docker-taiga-back-base](https://github.com/xolyu/docker-taiga-back-base/) for more details on configuration.
 
 This image also provides healthchecks and additionnal configuration properties.
 
