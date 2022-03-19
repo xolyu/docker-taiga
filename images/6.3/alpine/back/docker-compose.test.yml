@@ -22,7 +22,7 @@ services:
     # For local modifications
     #build: ./front
     # For production
-    image: monogramm/docker-taiga-front-base:6.3-alpine
+    image: xolyu/docker-taiga-front-base:6.3-alpine
     hostname: ${TAIGA_HOSTNAME}
     container_name: taiga_front
     #restart: always
@@ -101,7 +101,7 @@ services:
     # For local modifications
     #build: ./back
     # For production
-    #image: monogramm/docker-taiga-back-base:6.3-alpine
+    #image: xolyu/docker-taiga-back-base:6.3-alpine
     hostname: ${TAIGA_HOSTNAME}
     container_name: taiga_back
     #restart: always
@@ -232,7 +232,7 @@ services:
     # For local modifications
     #build: ./back
     # For production
-    #image: monogramm/docker-taiga-back-base:6.3-alpine
+    #image: xolyu/docker-taiga-back-base:6.3-alpine
     hostname: ${TAIGA_HOSTNAME}
     container_name: taiga_celery
     #restart: always
@@ -326,7 +326,7 @@ services:
 
   # To disable taiga-events, comment all the following lines:
   taiga_events:
-    image: monogramm/docker-taiga-events:6.3-alpine
+    image: xolyu/docker-taiga-events:6.3-alpine
     container_name: taiga_events
     #restart: always
     depends_on:
