@@ -31,7 +31,7 @@ ENV ENABLE_SLACK=False \
     OPENID_SCOPE="openid email"
 
 # Erase original entrypoint and conf with custom one
-COPY custom_db_init.sh /
+COPY custom_db_init.sh custom_actions.sh /
 COPY local.py /taiga/
 
 # Fix custom_db_init permissions
@@ -41,6 +41,7 @@ COPY local.py /taiga/
 # Install OPENID Auth extension
 RUN set -ex; \
     chmod 755 /custom_db_init.sh; \
+    chmod 755 /custom_actions.sh; \
     LC_ALL=C pip install --no-cache-dir taiga-contrib-slack; \
     LC_ALL=C pip install --no-cache-dir taiga-contrib-gitlab-auth-official; \
     LC_ALL=C pip install --no-cache-dir taiga-contrib-github-auth; \
